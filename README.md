@@ -1,6 +1,6 @@
 # Mi E-Commerce
 
-Proyecto de e-commerce diseñado con estructura simple utilizando HTML, CSS y JavaScript, para prácticas y proyectos.
+E-commerce diseñado con estructura simple utilizando HTML, CSS y JavaScript, para prácticas y proyectos.
 
 ## Tecnologías
 
