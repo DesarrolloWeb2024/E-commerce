@@ -15,7 +15,7 @@ E-commerce diseñado con estructura simple utilizando HTML, CSS y JavaScript, pa
 ## Características 🧩
 
 - **Lista de Productos**: Muestra una lista de productos que los usuarios pueden visualizar.
-- **Interactividad**: Elementos interactivos para una mejor experiencia de usuario.
+- **Carrusel**: Carrusel de imágenes interactivo.
 
 ## Instalación
 
