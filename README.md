@@ -17,7 +17,7 @@ E-commerce diseñado con estructura simple utilizando HTML, CSS y JavaScript, pa
 - **Lista de Productos**: Muestra una lista de productos que los usuarios pueden visualizar.
 - **Carrusel**: Carrusel de imágenes interactivo.
 
-## Instalación
+## Instalación ⚙️
 
 **1 Clona el repositorio:** 📥
 
