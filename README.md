@@ -32,13 +32,14 @@ E-commerce diseñado con estructura simple utilizando HTML, CSS y JavaScript, pa
 
    
 - copia el link del repositorio 
-![Paso 1](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/1725095447654.png "Paso 1")] 
+![Paso 1](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/1725095447654.png "Paso 1")]
+
 - abre git bash
-![Paso 2](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/2.PNG "Paso 2")] 
+- ![Paso 2](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/2.PNG "Paso 2")] 
 - cd /c
-![Paso 3](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/3.PNG "Paso 3")
+- ![Paso 3](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/3.PNG "Paso 3")
 - mkdir [añade nombre a la carpeta]
-![Paso 4](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/4.PNG "Paso 4")
+- ![Paso 4](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/4.PNG "Paso 4")
 - cd (nombre de la carpeta) ejemplo: cd mi-repositorio
 ![Paso 5](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/5.PNG)
 - escribe git clone  y pega el link del repositorio ej: git clone https://github.com/mi-e-commerce.git
@@ -50,17 +51,17 @@ E-commerce diseñado con estructura simple utilizando HTML, CSS y JavaScript, pa
 ![Paso 7](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/7.PNG "Paso 7")
 
 - cd E-commerce 
-![Paso 8](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/8.PNG "Paso 8")
+- ![Paso 8](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/8.PNG "Paso 8")
 
 **3 Instala las dependencias con npm:** 🛠️
 
 - npm install
-![Paso 9](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/9.PNG "Paso 9")
+- ![Paso 9](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/9.PNG "Paso 9")
 
 **4 Inicia el servidor de desarrollo con npm:** 🏁
 
 - npm start
-![Paso 10](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/10.PNG "Paso 10")
+- ![Paso 10](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/10.PNG "Paso 10")
 
 Al iniciar el servidor, podrás ver la lista de productos disponibles en la página principal.
 ![Paso 11](https://github.com/igorezequiel22/E-commerce-DesarrolloWeb/blob/main/public/images/Captura%203.PNG?raw=true")
