@@ -63,3 +63,4 @@ E-commerce diseñado con estructura simple utilizando HTML, CSS y JavaScript, pa
 ![Paso 10](https://raw.githubusercontent.com/igorezequiel22/E-commerce-DesarrolloWeb/main/public/images/10.PNG "Paso 10")
 
 Al iniciar el servidor, podrás ver la lista de productos disponibles en la página principal.
+![Paso 11](https://github.com/igorezequiel22/E-commerce-DesarrolloWeb/blob/main/public/images/Captura%203.PNG?raw=true")
