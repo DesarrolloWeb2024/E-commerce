@@ -1,6 +1,6 @@
 body {
     background-color: #226db3ee;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Comic sans', sans-serif;
 }
 
 a {
@@ -18,7 +18,7 @@ a {
     padding: 0;
     list-style: none;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Comic Sans', sans-serif;
 }
 
 .top-nav li {
