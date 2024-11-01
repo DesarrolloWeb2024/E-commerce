@@ -12,31 +12,32 @@ app.get('/api/products', (req, res) => {
   const products = [
     { 
       id: 1, 
-      name: 'Cámara web HD 1080P', 
-      oldPrice: 37500, 
-      price: 35000, 
-      urlImg: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSmYckEMeFKNyPfp2TJu1Fup4HIBjibtiCqO3I6nbhWev7LIyxevl52_-aZwkaoJmuOVxzl0GTcx9nqq5G4T3ArSy99H_T5&usqp=CAE'
+      name: 'Taza gatito programador', 
+      oldPrice: 3700, 
+      price: 3000, 
+      urlImg: 'https://m.media-amazon.com/images/I/617mM7y-SbL._AC_UL320_.jpg'
+    
     },
     {
       id: 2, 
-      name: 'Campera Keyboard programador',  
-      oldPrice: 11500, 
-      price: 11200, 
-      urlImg: 'https://purodiseno.lat/wp-content/uploads/2023/04/CAMPERA-TECLADO-2-821x1024.jpg' 
+      name: 'Llevero hello world!',  
+      oldPrice: 6500, 
+      price: 5200, 
+      urlImg: 'https://www.esyumi.com/460-medium_default/hello-world-el-llavero-de-los-programadores.jpg' 
     },
     { 
       id: 3, 
-      name: 'Disco-solido interno kingston sata-960g',  
-      oldPrice: 18500, 
-      price: 18000, 
-      urlImg: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQwqHX1fVP2DUn6mEw05ukydZ6KOgkf0w3N3ZEHHJnDUW7WtxSEzdOZ73YxCn-FBC5kYxGeF4wy9zakpXVDOXbjQouNAmyH1LTbzkyuK2t0u9We1eAqfkFFDw&usqp=CAE' 
+      name: 'Tablet Lenovo Tab M11 ',  
+      oldPrice: 228500, 
+      price: 210000, 
+      urlImg: 'https://p1-ofp.static.pub/medias/26028977916_newPic_202407310451471725540509557.png' 
     },
     { 
       id: 3, 
-      name: 'Taza Código De Programacion',  
-      oldPrice: 3500, 
-      price: 2200, 
-      urlImg: 'https://http2.mlstatic.com/D_NQ_NP_786656-MLA46832914211_072021-O.webp' 
+      name: 'Remera HTML + CSS',  
+      oldPrice: 13500, 
+      price: 12700, 
+      urlImg: 'https://acdn.mitiendanube.com/stores/001/279/959/products/311-d0344a838987b4601d16419088698578-640-0.webp' 
     },
     
     
