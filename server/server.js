@@ -19,10 +19,10 @@ app.get('/api/products', (req, res) => {
     },
     {
       id: 2, 
-      name: 'Campera Keyboard programador',  
-      oldPrice: 11500, 
-      price: 11200, 
-      urlImg: 'https://purodiseno.lat/wp-content/uploads/2023/04/CAMPERA-TECLADO-2-821x1024.jpg' 
+      name: 'Teclado Gamer',  
+      oldPrice: 22500, 
+      price: 21000, 
+      urlImg: 'https://www.heavenimagenes.com/heavencommerce/9297a8d7-5b05-4931-b287-026a1b306e14/images/v2/SOUL/2015_xlarge.jpg' 
     },
     { 
       id: 3, 
