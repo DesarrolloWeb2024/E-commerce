@@ -13,7 +13,7 @@ app.get('/api/products', (req, res) => {
     { 
       id: 1, 
       name: 'Mouse Logitech', 
-      oldPrice: 37500, 
+      oldPrice: 3000000, 
       price: 35000, 
       urlImg: 'https://i.ebayimg.com/images/g/UosAAOSwTV5mRyCj/s-l400.png'
     },
