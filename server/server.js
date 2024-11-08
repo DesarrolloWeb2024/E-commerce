@@ -12,17 +12,17 @@ app.get('/api/products', (req, res) => {
   const products = [
     { 
       id: 1, 
-      name: 'Mouse Logitech', 
+      name: 'Cámara web HD 1080P', 
       oldPrice: 37500, 
       price: 35000, 
-      urlImg: 'https://i.ebayimg.com/images/g/UosAAOSwTV5mRyCj/s-l400.png'
+      urlImg: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSmYckEMeFKNyPfp2TJu1Fup4HIBjibtiCqO3I6nbhWev7LIyxevl52_-aZwkaoJmuOVxzl0GTcx9nqq5G4T3ArSy99H_T5&usqp=CAE'
     },
     {
       id: 2, 
-      name: 'Teclado Gamer',  
-      oldPrice: 22500, 
-      price: 21000, 
-      urlImg: 'https://www.heavenimagenes.com/heavencommerce/9297a8d7-5b05-4931-b287-026a1b306e14/images/v2/SOUL/2015_xlarge.jpg' 
+      name: 'Campera Keyboard programador',  
+      oldPrice: 11500, 
+      price: 11200, 
+      urlImg: 'https://purodiseno.lat/wp-content/uploads/2023/04/CAMPERA-TECLADO-2-821x1024.jpg' 
     },
     { 
       id: 3, 
