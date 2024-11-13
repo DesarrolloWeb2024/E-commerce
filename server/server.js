@@ -12,10 +12,10 @@ app.get('/api/products', (req, res) => {
   const products = [
     { 
       id: 1, 
-      name: 'Cámara web HD 1080P', 
-      oldPrice: 37500, 
-      price: 35000, 
-      urlImg: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSmYckEMeFKNyPfp2TJu1Fup4HIBjibtiCqO3I6nbhWev7LIyxevl52_-aZwkaoJmuOVxzl0GTcx9nqq5G4T3ArSy99H_T5&usqp=CAE'
+      name: 'Reposera Plegable Chilly', 
+      oldPrice: 137000, 
+      price: 122000, 
+      urlImg: 'https://www.chilly.com.ar/reposera-plegable-chilly-diseno-gris/p/MLA28873987?pdp_filters=seller_id%3A127335005#position=1&search_layout=grid&type=item&tracking_id=c96f46be-5d2b-461e-8fef-3476517fa944'
     },
     {
       id: 2, 
