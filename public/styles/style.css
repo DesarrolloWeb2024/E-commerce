@@ -157,7 +157,7 @@ a.product-name:hover, a.product-name:focus {
 }
 
 .footer-logo a, .footer-nav a{
-    color: #B5A68F;
+    color: #dd8d8a;
     text-decoration: none;
 }
 
@@ -262,7 +262,7 @@ a.product-name:hover, a.product-name:focus {
 .detail-price {
     font-weight: bold;
     font-size: 2.6rem;
-    color: #616161;
+    color: #dd8d8a;
     display: block;
 }
 
@@ -270,13 +270,13 @@ a.product-name:hover, a.product-name:focus {
     text-decoration: line-through;
     font-size: 1.6rem;
     font-weight: bold;
-    color: #939393;
+    color: #dd8d8a;
     display: block;
 }
 
 .sidebar {
     border-left: 1px solid #004d9b;
-    border-top: 0 solid #c7c8c9;
+    border-top: 0 solid #dd8d8a;
 }
 
 .average-rating {
@@ -352,7 +352,7 @@ a.product-name:hover, a.product-name:focus {
 }
 
 .pagination .page-link:hover, .pagination .page-link:focus {
-    color: #000;
+    color: #dd8d8a;
 }
 
 .pagination .page-item.disabled .page-link {
