@@ -32,7 +32,7 @@ a {
 }
 
 .top-nav li a {
-    color: #B5A68F;
+    color: #dd8d8a;
     text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ a {
 }
 
 .site-logo a {
-    color: #F5F5E6;
+    color: #dd8d8a;
     text-decoration: none;
 }
 
@@ -121,13 +121,13 @@ a {
 }
 
 a.product-name:hover, a.product-name:focus {
-    color: #ffffff;
+    color: #dd8d8a;
     text-decoration: none;
 }
 
 .product-price-old {
     text-decoration: line-through;
-    color: #a3a3a3;
+    color: #dd8d8a;
     font-weight: 600;
     font-size: 18px;
 }
@@ -148,7 +148,7 @@ a.product-name:hover, a.product-name:focus {
     list-style: none;
 }
 .col-10 { 
-    color: #ffffff;
+    color: #dd8d8a;
     display: flex;
     text-align: center;
 }
@@ -179,7 +179,7 @@ a.product-name:hover, a.product-name:focus {
 
 
 .social-icon {
-    color: #e0e0e0;
+    color: #dd8d8a;
     font-size: 13px;
     margin-right: 10px;
 }
@@ -238,7 +238,7 @@ a.product-name:hover, a.product-name:focus {
 }
 
 .large-icon, .large-text {
-    color: #6c6c6c;
+    color: #dd8d8a;
 }
 
 .img-large {
@@ -317,7 +317,7 @@ a.product-name:hover, a.product-name:focus {
 }
 
 .bg-gray {
-    background-color: #e4e4e4;
+    background-color: #dd8d8a;
 }
 
 .ratings {
@@ -348,7 +348,7 @@ a.product-name:hover, a.product-name:focus {
     background-color: transparent;
     border: 0;
     margin-right: 10px;
-    color: #656565;
+    color: #dd8d8a;
 }
 
 .pagination .page-link:hover, .pagination .page-link:focus {
