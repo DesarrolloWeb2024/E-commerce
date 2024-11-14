@@ -33,10 +33,10 @@ app.get('/api/products', (req, res) => {
     },
     { 
       id: 3, 
-      name: 'Taza Código De Programacion',  
-      oldPrice: 3500, 
-      price: 2200, 
-      urlImg: 'https://http2.mlstatic.com/D_NQ_NP_786656-MLA46832914211_072021-O.webp' 
+      name: 'Promocion de Lentes de sol + ojotas Hawaianas',  
+      oldPrice: 58000, 
+      price: 48000, 
+      urlImg: 'https://img.freepik.com/foto-gratis/mano-sujetando-chanclas-gafas-sol_23-2148775861.jpg?t=st=1731622494~exp=1731626094~hmac=aa894db62dee5d83966b6dfd4ae410716660fe243b69327737a7e6298375e1ac&w=740' 
     },
     
     
