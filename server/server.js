@@ -12,10 +12,10 @@ app.get('/api/products', (req, res) => {
   const products = [
     { 
       id: 1, 
-      name: 'Reposera Plegable Chilly', 
-      oldPrice: 137000, 
-      price: 122000, 
-      urlImg: 'https://http2.mlstatic.com/D_NQ_NP_2X_754991-MLU73329399408_122023-F.webp'
+      name: 'Reposera Plegable', 
+      oldPrice: 97000, 
+      price: 82000, 
+      urlImg: 'https://http2.mlstatic.com/D_NQ_NP_2X_984961-MLU75915935498_042024-F.webp'
     },
     {
       id: 2, 
