@@ -15,7 +15,7 @@ app.get('/api/products', (req, res) => {
       name: 'Reposera Plegable Chilly', 
       oldPrice: 137000, 
       price: 122000, 
-      urlImg: 'https://www.chilly.com.ar/reposera-plegable-chilly-diseno-gris/p/MLA28873987?pdp_filters=seller_id%3A127335005#position=1&search_layout=grid&type=item&tracking_id=c96f46be-5d2b-461e-8fef-3476517fa944'
+      urlImg: 'https://http2.mlstatic.com/D_NQ_NP_2X_754991-MLU73329399408_122023-F.webp'
     },
     {
       id: 2, 
