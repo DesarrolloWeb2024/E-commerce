@@ -36,7 +36,7 @@ app.get('/api/products', (req, res) => {
       name: 'rosca de pascua',  
       oldPrice: 5000, 
       price: 4000, 
-      urlImg: 'https://http2.mlstatic.com/D_NQ_NP_786656-MLA46832914211_072021-O.webp' 
+      urlImg: 'https://www.rionegro.com.ar/wp-content/uploads/2021/03/165257536_838201626767443_190214730888920895_n.jpg' 
     },
     
     
