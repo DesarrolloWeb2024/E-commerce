@@ -19,17 +19,10 @@ app.get('/api/products', (req, res) => {
     },
     {
       id: 2, 
-<<<<<<< HEAD
       name: 'medialunas de manteca',  
       oldPrice: 4500, 
       price: 4000, 
       urlImg: 'https://purodiseno.lat/wp-content/uploads/2023/04/CAMPERA-TECLADO-2-821x1024.jpg' 
-=======
-      name: 'Campera Keyboard programador',  
-      oldPrice: 11500, 
-      price: 11200, 
-      urlImg: 'https://cocinerosargentinos.com/content/recipes/500x500/recipes.12842.jpeg' 
->>>>>>> 666e1cce39de107a3845ed6942728afaf9adf68c
     },
     { 
       id: 3, 
@@ -40,17 +33,10 @@ app.get('/api/products', (req, res) => {
     },
     { 
       id: 3, 
-<<<<<<< HEAD
       name: 'rosca de pascua',  
       oldPrice: 5000, 
       price: 4000, 
       urlImg: 'https://www.rionegro.com.ar/wp-content/uploads/2021/03/165257536_838201626767443_190214730888920895_n.jpg' 
-=======
-      name: 'Taza Código De Programacion',  
-      oldPrice: 3500, 
-      price: 2200, 
-      urlImg: 'https://panaderialucca.com.ar/wp-content/uploads/2023/08/productos-panaderia.jpg' 
->>>>>>> 666e1cce39de107a3845ed6942728afaf9adf68c
     },
     
     
