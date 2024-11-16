@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Envío</title>
+    <style>
+        /* Estilos generales */
+        * {
+            box-sizing: border-box; /* Asegura que el padding y border no afecten al tamaño total */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color: #000; /* Fondo negro */
+            overflow-x: hidden; /* Evitar desplazamiento horizontal */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Video de fondo */
+        .video-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Hace que el video cubra todo el fondo */
+            z-index: -1;
+        }
+
+        /* Estilos de la caja del formulario */
+        .container {
+            position: relative;
+            z-index: 1;
+            width: 90%; /* 90% del ancho de la pantalla */
+            max-width: 600px; /* Máximo de 600px para pantallas grandes */
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            overflow: hidden; /* Evitar desbordes */
+        }
+
+        h1 {
+            color: #74341b;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .info {
+            color: #ed8125;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        label {
+            font-weight: bold;
+            text-align: left;
+            font-size: 1rem;
+        }
+
+        input, select {
+            padding: 12px;
+            font-size: 1rem;
+            border: 2px solid #ed8125;
+            border-radius: 5px;
+            width: 100%; /* Asegura que los campos llenen el ancho disponible */
+        }
+
+        button {
+            padding: 12px;
+            background-color: #ed8125;
+            border: none;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #74341b;
+        }
+
+        /* Estilos del reloj */
+        .countdown {
+            margin-top: 30px;
+        }
+
+        #reloj {
+            font-size: 2rem;
+            color: #ed8125;
+            font-weight: bold;
+        }
+
+        /* Estilos para los campos adicionales (tarjeta y transferencia) */
+        .payment-details {
+            display: none;
+            margin-top: 15px;
+        }
+
+        .payment-details label {
+            font-size: 1rem;
+        }
+
+        .payment-details input {
+            width: 100%;
+        }
+
+        /* Estilos responsivos */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem; /* Ajustar tamaño del título para pantallas pequeñas */
+            }
+
+            .info {
+                font-size: 1rem; /* Ajustar tamaño del texto informativo */
+            }
+
+            #reloj {
+                font-size: 1.5rem; /* Hacer el reloj un poco más pequeño en pantallas pequeñas */
+            }
+
+            button {
+                font-size: 1.2rem; /* Hacer el texto del botón más grande */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                width: 95%; /* Hacer el formulario más estrecho en pantallas más pequeñas */
+            }
+
+            h1 {
+                font-size: 1.8rem; /* Asegurar que el título no quede demasiado grande */
+            }
+
+            label {
+                font-size: 0.9rem; /* Reducir el tamaño de las etiquetas en pantallas pequeñas */
+            }
+
+            input, select {
+                font-size: 0.9rem; /* Reducir el tamaño de los inputs en pantallas pequeñas */
+                padding: 10px; /* Reducir el padding de los inputs */
+            }
+
+            button {
+                font-size: 1rem; /* Reducir el tamaño del botón */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Video de fondo -->
+    <video class="video-background" autoplay muted loop>
+        <source src="images/cuestionario banner.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+    </video>
+
+    <div class="container">
+        <h1>¡Gracias por tu pedido!</h1>
+        <p class="info">Tu pedido demorará 30 minutos desde la confirmación de tu pago.</p>
+
+        <!-- Formulario de envío -->
+        <form id="pedido-form" action="https://formspree.io/f/manyjgaj" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+
+            <label for="localidad">Localidad:</label>
+            <input type="text" id="localidad" name="localidad" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" required>
+
+            <!-- Campo de selección de método de pago -->
+            <label for="metodo-pago">Método de Pago:</label>
+            <select id="metodo-pago" name="metodo_pago" required>
+                <option value="efectivo">Efectivo</option>
+                <option value="transferencia">Transferencia bancaria</option>
+                <option value="tarjeta">Tarjeta de crédito</option>
+            </select>
+
+            <!-- Detalles de pago: Tarjeta de crédito o Transferencia (ocultos por defecto) -->
+            <div id="tarjeta-details" class="payment-details">
+                <label for="numero-tarjeta">Número de Tarjeta:</label>
+                <input type="text" id="numero-tarjeta" name="numero_tarjeta" placeholder="XXXX XXXX XXXX XXXX">
+
+                <label for="fecha-vencimiento">Fecha de Vencimiento:</label>
+                <input type="text" id="fecha-vencimiento" name="fecha_vencimiento" placeholder="MM/AA">
+
+                <label for="codigo-seguridad">Código de Seguridad (CVV):</label>
+                <input type="text" id="codigo-seguridad" name="codigo_seguridad" placeholder="CVV">
+            </div>
+
+            <div id="transferencia-details" class="payment-details">
+                <label for="cbu">CBU (para transferencia):</label>
+                <input type="text" id="cbu" name="cbu" placeholder="CBU de tu banco">
+            </div>
+
+            <!-- Campo oculto para el asunto del correo -->
+            <input type="hidden" name="_subject" value="Nuevo Pedido">
+
+            <button type="submit">Enviar Pedido</button>
+        </form>
+
+        <!-- Reloj de cuenta regresiva -->
+        <div class="countdown">
+            <h2>Tiempo restante para la entrega:</h2>
+            <div id="reloj">30:00</div>
+        </div>
+    </div>
+
+    <script>
+        // Configuración de tiempo inicial (30 minutos = 1800 segundos)
+        let tiempoRestante = 1800;
+
+        // Función para actualizar el reloj
+        function actualizarReloj() {
+            let minutos = Math.floor(tiempoRestante / 60);
+            let segundos = tiempoRestante % 60;
+            if (segundos < 10) {
+                segundos = '0' + segundos;
+            }
+            document.getElementById("reloj").innerText = `${minutos}:${segundos}`;
+
+            if (tiempoRestante > 0) {
+                tiempoRestante--;
+            }
+        }
+
+        // Iniciar cuenta regresiva
+        setInterval(actualizarReloj, 1000);
+
+        // Mostrar los detalles de pago según el método seleccionado
+        document.getElementById("metodo-pago").addEventListener("change", function() {
+            const metodoPago = this.value;
+            const tarjetaDetails = document.getElementById("tarjeta-details");
+            const transferenciaDetails = document.getElementById("transferencia-details");
+
+            // Ocultar ambos detalles por defecto
+            tarjetaDetails.style.display = 'none';
+            transferenciaDetails.style.display = 'none';
+
+            // Mostrar los detalles correspondientes según el método de pago seleccionado
+            if (metodoPago === 'tarjeta') {
+                tarjetaDetails.style.display = 'block';
+            } else if (metodoPago === 'transferencia') {
+                transferenciaDetails.style.display = 'block';
+            }
+        });
+
+        // Enviar formulario y redirigir al método de pago
+        document.getElementById("pedido-form").addEventListener("submit", function(e) {
+            e.preventDefault(); // Evitar envío inmediato del formulario
+
+            // Enviar datos a Formspree mediante AJAX
+            const form = e.target;
+            const formData = new FormData(form);
+
+            fetch(form.action, {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (response.ok) {
+                    // Redirigir a la página de pago después de un envío exitoso
+                    window.location.href = "https://www.ejemplo.com/pago";  // Sustituye con tu página de pago
+                } else {
+                    alert("Hubo un error en el envío del formulario.");
+                }
+            })
+            .catch(error => {
+                alert("Gracias por tu compra, tu pedido llegará muy pronto.");
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+
