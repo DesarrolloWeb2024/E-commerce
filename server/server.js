@@ -19,10 +19,10 @@ app.get('/api/products', (req, res) => {
     },
     {
       id: 2, 
-      name: 'Campera Keyboard programador',  
-      oldPrice: 11500, 
-      price: 11200, 
-      urlImg: 'https://purodiseno.lat/wp-content/uploads/2023/04/CAMPERA-TECLADO-2-821x1024.jpg' 
+      name: 'Tienda de campaña playa',  
+      oldPrice: 35500, 
+      price: 34200, 
+      urlImg: 'https://m.media-amazon.com/images/I/81s+fO9AOdL._AC_UF894,1000_QL80_.jpg' 
     },
     { 
       id: 3, 
