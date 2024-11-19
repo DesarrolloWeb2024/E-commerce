@@ -4,7 +4,7 @@ body {
 
    
 
- font-family: 'Open Sans Condensed', sans-serif;
+ font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -19,12 +19,13 @@ a {
 
 /* Ajustar el estilo del título */
 .brand-name {
-    font-size: 1.2rem; /* Hazlo más grande */
-    font-weight: 600; /* Aumenta el grosor del texto */
-    color: #ffffff; /* Cambia el color si es necesario */
-    margin: 0; /* Elimina cualquier margen por defecto */
-    line-height: 1.z; /* Ajusta el espaciado vertical */
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    padding-left: 20px; /* Espaciado interno a la izquierda */
+    line-height: 1.2;
 }
+
 
 .header .row {
     align-items: center;
