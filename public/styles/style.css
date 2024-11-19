@@ -4,7 +4,7 @@ body {
 
    
 
- font-family: 'Righteous', cursive;
+ font-family: 'Open Sans Condensed', sans-serif;
 }
 
 a {
@@ -19,11 +19,9 @@ a {
 
 /* Ajustar el estilo del título */
 .brand-name {
-    font-size: 10rem; /* Hazlo más grande */
-    font-family: 'Righteous', cursive; /* Usa una tipografía con más presencia */
+    font-size: 1rem; /* Hazlo más grande */
     font-weight: 700; /* Aumenta el grosor del texto */
     color: #ff5e00; /* Cambia el color si es necesario */
-    text-transform: uppercase; /* Convierte el texto a mayúsculas */
     margin: 0; /* Elimina cualquier margen por defecto */
     line-height: 1.2; /* Ajusta el espaciado vertical */
 }
@@ -38,7 +36,7 @@ a {
     padding: 0;
     list-style: none;
     font-size: 16px;
-    font-family: 'Righteous', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .top-nav li {
