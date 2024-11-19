@@ -19,11 +19,11 @@ a {
 
 /* Ajustar el estilo del título */
 .brand-name {
-    font-size: 1rem; /* Hazlo más grande */
-    font-weight: 700; /* Aumenta el grosor del texto */
-    color: #ff5e00; /* Cambia el color si es necesario */
+    font-size: 1.2rem; /* Hazlo más grande */
+    font-weight: 600; /* Aumenta el grosor del texto */
+    color: #ffffff; /* Cambia el color si es necesario */
     margin: 0; /* Elimina cualquier margen por defecto */
-    line-height: 1.2; /* Ajusta el espaciado vertical */
+    line-height: 1.z; /* Ajusta el espaciado vertical */
 }
 
 .header .row {
@@ -67,12 +67,6 @@ a {
 
 }
 
-.site-logo {
-    font-size: 2rem;
-    line-height: 1;
-    font-family: 'Righteous', cursive;
-}
-
 .site-logo img {
     max-height: 60px;
 }
@@ -105,14 +99,6 @@ a {
     background-color: black;
     color: white;
     padding: 10px 0;
-}
-.brand-name {
-    font-family: 'Righteous', sans-serif; /* Fuente estilo vintage */
-    font-size: 1.2rem;  /* Tamaño grande */
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: white;
-    margin-left: 10px;
 }
 
 /* Estilos para el menú de navegación */
