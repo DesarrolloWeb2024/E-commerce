@@ -1,12 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <title>Panaderia Nancy</title>
+    <title>Panadería Nancy</title>
 
     <link href="//fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
@@ -21,20 +19,100 @@
 
         <div class="row min-vh-100">
             <div class="col-12">
-                <header class="row">l
-                   <!-- Top Nav -->
-<div class="col-12 bg-dark py-2 d-md-block d-none">
-    <div class="row">
-        <div class="col-auto">
-            <!-- Logo pequeño -->
-            <img src="images/logo-small.png" alt="Logo pequeño" class="logo-small me-3">
+                <header class="row">
+                    <!-- Top Nav -->
+                    <div class="col-12 bg-dark py-2 d-md-block d-none">
+                        <div class="row">
+                            <div class="col-auto">
+                                <!-- Logo pequeño -->
+                                <img src="images/logo-small.png" alt="Logo pequeño" class="logo-small me-3">
+                            </div>
+                            <div class="col-auto me-auto">
+                                <ul class="top-nav">
+                                    <li>
+                                        <a href="https://api.whatsapp.com/send?phone=1136894872">
+                                            <i class="fa fa-phone-square me-2"></i>+54 11-3689-4872
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:mail@ecom.com">
+                                            <i class="fa fa-envelope me-2"></i>mail@ecom.com
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- Sección de Reseñas -->
+                <section id="reseñas" class="py-5">
+                    <div class="container">
+                        <h2 class="text-center mb-4">Reseñas de Nuestros Clientes</h2>
+                        <div class="row">
+                            <!-- Reseña 1 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Juan Pérez</h5>
+                                        <p class="card-text">"Excelente panadería. Los panes siempre frescos y deliciosos. ¡Recomiendo el pan de chocolate!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reseña 2 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">María González</h5>
+                                        <p class="card-text">"El servicio es excelente, y las facturas son las mejores que he probado. ¡Volveré seguro!"</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Reseña 3 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Carlos Martínez</h5>
+                                        <p class="card-text">"Muy buena calidad en todos los productos. Me encanta el pan casero, lo recomiendo a todos."</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sección de Formulario de Contacto y Reseñas -->
+                <section id="contacto" class="bg-light py-5">
+                    <div class="container">
+                        <h2 class="text-center mb-4">Déjanos tu Reseña</h2>
+                        <p class="text-center mb-4">Queremos saber tu opinión. Por favor, llena el siguiente formulario con tus comentarios.</p>
+                        <form action="procesar_resena.php" method="POST">
+                            <div class="row">
+                                <!-- Nombre -->
+                                <div class="col-md-6 mb-3">
+                                    <label for="nombre" class="form-label">Tu Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                                </div>
+                                <!-- Correo -->
+                                <div class="col-md-6 mb-3">
+                                    <label for="correo" class="form-label">Tu Correo Electrónico</label>
+                                    <input type="email" class="form-control" id="correo" name="correo" required>
+                                </div>
+                            </div>
+                            <!-- Reseña -->
+                            <div class="mb-3">
+                                <label for="resena" class="form-label">Tu Reseña</label>
+                                <textarea class="form-control" id="resena" name="resena" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar Reseña</button>
+                        </form>
+                    </div>
+                </section>
+            </div>
         </div>
-        <div class="col-auto me-auto">
-            <ul class="top-nav">
-                <li>
-                    <a href="https://api.whatsapp.com/send?phone=1136894872">
-                        <i class="fa fa-phone-square me-2"></i>+54 11-3689-4872
-                    </a>
-                </li>
-                <li>
-                    <a href="mailto:mail@ecom.com">
+
+    </div>
+
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+</body>
+</html>
