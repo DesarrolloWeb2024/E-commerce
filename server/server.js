@@ -15,14 +15,14 @@ app.get('/api/products', (req, res) => {
       name: 'Pan frances', 
       oldPrice: 2500, 
       price: 2000, 
-      urlImg: 'https://enrilemoine.com/wp-content/uploads/2024/06/pan-frances-by-enrilemoine-13.webp'
+      urlImg: 'https://elparisino.com/wp-content/uploads/2020/07/IMG_0029-scaled.jpg'
     },
     {
       id: 2, 
-      name: 'medialunas de manteca',  
+      name: 'Medialunas rellenas de dulce de leche',  
       oldPrice: 4500, 
       price: 4000, 
-      urlImg: 'https://www.midiariodecocina.com/wp-content/uploads/2022/01/Medialunas03.jpg' 
+      urlImg: 'https://www.minutoneuquen.com/u/fotografias/m/2024/4/19/f768x1-663808_663935_5050.jpg' 
     },
     { 
       id: 3, 
@@ -32,11 +32,11 @@ app.get('/api/products', (req, res) => {
       urlImg: 'https://cuk-it.com/wp-content/uploads/2023/01/pandemolde-stories-4.webp' 
     },
     { 
-      id: 3, 
-      name: 'rosca de pascua',  
+      id: 4, 
+      name: 'Rosca de pascua',  
       oldPrice: 5000, 
       price: 4000, 
-      urlImg: 'https://cocinerosargentinos.com/content/recipes/original/recipes.19510.jpg' 
+      urlImg: 'https://www.rionegro.com.ar/wp-content/uploads/2021/03/165257536_838201626767443_190214730888920895_n.jpg' 
     },
     
     
