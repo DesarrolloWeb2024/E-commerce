@@ -385,6 +385,21 @@ table td img {
     text-align: justify;
     text-justify: inter-word;
 }
+.card-img-top {
+    width: 100%;
+    height: 400px; /* Altura consistente para todas las imágenes */
+    object-fit: cover; /* Recorta la imagen si es necesario para mantener la proporción */
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;  /* Hace que la tarjeta ocupe todo el espacio disponible */
+}
+
+.card-body {
+    flex-grow: 1;  /* Expande el contenido para llenar el espacio */
+}
+
 
 
 @media (max-width: 767.98px) {
