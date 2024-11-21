@@ -399,7 +399,12 @@ table td img {
 .card-body {
     flex-grow: 1;  /* Expande el contenido para llenar el espacio */
 }
-
+/* Estilo para la primera imagen */
+#historia-img-especifica-1 {
+    width: 100%;      /* Ajusta el ancho al 100% del contenedor */
+    max-width: 400px; /* Limita el tamaño máximo a 400px */
+    height: auto;     /* Mantiene la proporción de la imagen */
+}
 
 
 @media (max-width: 767.98px) {

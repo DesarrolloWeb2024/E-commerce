@@ -27,15 +27,15 @@ app.get('/api/products', (req, res) => {
     { 
       id: 3, 
       name: 'Pan lactal',  
-      oldPrice: 5500, 
-      price: 5000, 
+      oldPrice: 4000, 
+      price: 3500, 
       urlImg: 'https://cuk-it.com/wp-content/uploads/2023/01/pandemolde-stories-4.webp' 
     },
     { 
       id: 4, 
       name: 'Rosca de pascua',  
-      oldPrice: 5000, 
-      price: 4000, 
+      oldPrice: 6000, 
+      price: 5000, 
       urlImg: 'https://www.rionegro.com.ar/wp-content/uploads/2021/03/165257536_838201626767443_190214730888920895_n.jpg' 
     },
     
