@@ -405,7 +405,26 @@ table td img {
     max-width: 400px; /* Limita el tamaño máximo a 400px */
     height: auto;     /* Mantiene la proporción de la imagen */
 }
-
+.producto
+{
+    width: 25%;
+    float:left;
+    border:1px solid #000000;
+    background-color:#E2A9F3;
+    color:#000000;
+    margin:1em;
+    height:16em;
+    text-align:center;
+    padding:1em;
+}
+.precio
+{
+width:60%;
+margin:auto;
+border:1px solid #000000;
+background-color:#FFFFFF;
+color:#000000;
+}
 
 @media (max-width: 767.98px) {
 
