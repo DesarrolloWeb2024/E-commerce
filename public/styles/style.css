@@ -198,34 +198,11 @@ a.product-name:hover, a.product-name:focus {
     font-weight: 600;
 }
 
-.footer-logo {
-    font-size: 1.65rem;
-    font-family: 'Righteous', cursive;
-}
-
-.footer-nav {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
 .col-10 { 
     color: #ffffff;
     display: flex;
     text-align: center;
 }
-.footer-nav li {
-    margin-top: 10px;
-}
-
-.footer-logo a, .footer-nav a{
-    color: #B5A68F;
-    text-decoration: none;
-}
-
-.footer-logo img {
-    max-height: 40px;
-}
-
 .col-13 {
     max-width: 600px;
     color: #ffffff;
@@ -245,9 +222,7 @@ a.product-name:hover, a.product-name:focus {
     margin-right: 10px;
 }
 
-.footer-logo a:hover, .footer-logo a:focus, .footer-nav a:hover, .footer-nav a:focus, .social-icon:hover, .social-icon:focus {
-    color: #fff;
-}
+
 
 .product-item {
     position: relative;
@@ -473,3 +448,85 @@ table td img {
 #whatsapp-button:hover {
     background-color: #128C7E;
 }
+.footer {
+    background: linear-gradient(135deg, #1a1a1a, #333333);
+    color: #e0e0e0;
+    padding: 2rem 0;
+    font-size: 0.95rem;
+    border-top: 3px solid #ff5e00;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-title {
+    color: #ff853f;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #bdbdbd;
+}
+
+.footer-link {
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: #ff853f;
+    text-decoration: underline;
+}
+
+.logo-footer {
+    max-width: 150px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.social-icon {
+    color: #ff853f;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    color: #fff;
+}
+
+.footer p, .footer a {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.footer p i {
+    color: #ff853f;
+    margin-right: 8px;
+}
+
+.footer p:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-description:hover {
+    color: #fff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px)
+    .footer {
+        text-align: center;
+    }
+
+    .footer p, .footer a {
+        font-size: 0.9rem;
+    }
