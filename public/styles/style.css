@@ -1,6 +1,6 @@
 body {
 
-    background-color: #000000ee;
+    background-color: #f0f0f0;
 
    
 
@@ -140,6 +140,11 @@ a {
 .nav-link:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+/* Excluir el subrayado para el carrito de compras */
+.nav-item.carrito .nav-link::after {
+    display: none;  /* No mostrar el subrayado en el carrito */
 }
 
 /* Estilo para el enlace activo (opcional) */
@@ -530,3 +535,121 @@ table td img {
     .footer p, .footer a {
         font-size: 0.9rem;
     }
+
+/* Estilo para el contenedor de productos */
+.productos {
+    padding: 50px 0;
+}
+
+.producto-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.producto-card:hover {
+    transform: translateY(-10px);
+}
+
+.producto-img {
+    width: 55%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.producto-info {
+    padding: 15px;
+}
+
+.producto-nombre {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fc5c00;
+    margin: 10px 0;
+}
+
+.producto-precio {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.btn-agregar {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-agregar:hover {
+    background-color: #ff853f;
+    color: #fff;
+}
+
+/* Responsividad: 3 productos por fila */
+@media (max-width: 767px) {
+    .col-12.col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-12.col-md-4 {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+    }
+}
+
+.brand-nameProd {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+    padding-left: 20px; /* Espaciado interno a la izquierda */
+    line-height: 1.2;
+}
+
+.brand-nameLis {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+    padding-left: 20px; /* Espaciado interno a la izquierda */
+    line-height: 1.2;
+}
+
+/* Estilos para el carrito de compras */
+.nav-item.carrito {
+    position: relative;
+}
+
+.nav-item.carrito .fa-shopping-cart {
+    font-size: 24px;
+    color: #fc5c00;
+}
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #fc5c00;
+    
+  
+color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 14px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
