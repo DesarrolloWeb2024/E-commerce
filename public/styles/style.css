@@ -410,21 +410,69 @@ table td img {
     width: 25%;
     float:left;
     border:1px solid #000000;
-    background-color:#E2A9F3;
+    background-color:#548687;
     color:#000000;
     margin:1em;
-    height:20em;
+    height:26em;
     text-align:center;
     padding:1em;
 }
 .precio
 {
 width:60%;
-margin:auto;
+margin: 20px auto; /* Agrega un margen de 20px arriba y abajo */
 border:1px solid #000000;
 background-color:#FFFFFF;
 color:#000000;
 }
+.producto img {
+    width: 90%;  /* La imagen ocupará el 90% del ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    max-height: 100%; /* Asegura que la imagen no se salga del contenedor */
+  }
+ /* Estilo para el botón de compra */
+.comprar {
+    background-color: #25D366; /* Verde de WhatsApp */
+    color: white; /* Texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa por encima */
+    font-size: 16px; /* Tamaño de la fuente */
+    text-align: center; /* Centra el texto */
+    display: inline-block;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    margin-top: 10px; /* Espacio entre el precio y el botón */
+}
+
+/* Efecto de hover (cuando el ratón pasa sobre el botón) */
+.comprar:hover {
+    background-color: #128C7E; /* Cambio de color al pasar el ratón (verde oscuro) */
+}
+ /* Estilo para el botón redondeado y verde */
+.css-button-rounded--green {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px; /* Bordes redondeados */
+    border: 2px solid #57cc99; /* Borde verde */
+    background: #57cc99; /* Fondo verde */
+  }
+  
+  /* Efecto hover: cuando el ratón pasa sobre el botón */
+  .css-button-rounded--green:hover {
+    background: #fff; /* Fondo blanco */
+    color: #57cc99; /* Color del texto verde */
+  }
+  
+  
 
 @media (max-width: 767.98px) {
 
