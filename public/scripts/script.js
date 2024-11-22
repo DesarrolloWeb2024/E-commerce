@@ -54,3 +54,29 @@ function setImgSmall() {
     var width = imgSmall.width();
     imgSmall.height(width);
 }
+
+// Variable para almacenar el número de productos en el carrito
+let cantidadCarrito = 0;
+
+// Función para actualizar el contador en el carrito
+function actualizarContador() {
+  // Actualiza el contenido del contador en el ícono del carrito
+  document.getElementById('cart-count').textContent = cantidadCarrito;
+}
+
+// Asignar eventos a los botones de "Agregar al carrito"
+document.addEventListener('DOMContentLoaded', () => {
+  // Buscar todos los botones de "Agregar al carrito"
+  const botonesAgregar = document.querySelectorAll('.btn-agregar');
+
+  // Agregar el evento click a cada botón
+  botonesAgregar.forEach((boton) => {
+    boton.addEventListener('click', () => {
+      // Incrementar la cantidad de productos en el carrito
+      cantidadCarrito++;
+
+      // Actualizar el contador en el carrito
+      actualizarContador();
+    });
+  });
+});
