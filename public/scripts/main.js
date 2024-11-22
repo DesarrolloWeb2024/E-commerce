@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                                     $${product.price}
                                                     </span>
                                                 </div>
+                                                <button class="btn btn-outline-dark add-to-cart" data-name="${product.name}" data-price="${product.price}" data-image="${product.urlImg}"><i class="fas fa-cart-plus me-2"></i>Agregar al carrito</button>
                                             </div>
                                         </div>
                                     `;
