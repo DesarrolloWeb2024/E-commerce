@@ -15,7 +15,7 @@ app.get('/api/products', (req, res) => {
       name: 'Cámara web HD 1080P', 
       oldPrice: 37500, 
       price: 35000, 
-      urlImg: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSmYckEMeFKNyPfp2TJu1Fup4HIBjibtiCqO3I6nbhWev7LIyxevl52_-aZwkaoJmuOVxzl0GTcx9nqq5G4T3ArSy99H_T5&usqp=CAE'
+      urlImg: 'https://http2.mlstatic.com/D_NQ_NP_795949-MLA46620925823_072021-O.webp'
     },
     {
       id: 2, 
@@ -36,7 +36,7 @@ app.get('/api/products', (req, res) => {
       name: 'Taza Código De Programacion',  
       oldPrice: 3500, 
       price: 2200, 
-      urlImg: 'https://http2.mlstatic.com/D_NQ_NP_786656-MLA46832914211_072021-O.webp' 
+      urlImg: 'https://http2.mlstatic.com/D_NQ_NP_635341-MLA70663399583_072023-O.webp' 
     },
     
     
