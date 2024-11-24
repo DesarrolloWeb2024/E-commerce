@@ -653,3 +653,42 @@ color: white;
     height: 20px;
     text-align: center;
 }
+
+
+
+/* Estilo para los encabezados */
+.info-container h2 {
+    font-family: 'Righteous', sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el texto */
+.info-container p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+.sobre-nosotros {
+    position: relative; /* Asegura que los hijos se posicionen correctamente */
+    background-image: url('images/fondoblanco.jpeg'); /* Ruta correcta de la imagen */
+    background-size: cover; /* Hace que la imagen cubra el área completa */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    padding: 100px 0; /* Ajusta el espacio superior e inferior */
+}
+  
+.sobre-nosotros .info-container {
+    position: relative; /* Mantiene el contenedor por encima del fondo */
+    background-color: rgba(233, 121, 47, 0.942); /* Fondo semitransparente (naranja) */
+    padding: 20px;
+    border-radius: 8px; /* Esquinas redondeadas */
+    color: rgb(252, 252, 252); /* Asegura que el texto sea legible */
+    max-width: 800px;
+    margin: 0 auto; /* Centra horizontalmente */
+    text-align: center; /* Centra el contenido */
+}
+body style {
+    background-image: url('images/fondoblanco.jpeg'); /* Ruta de la imagen */
+    background-size: cover; /* Hace que la imagen cubra el área completa */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
