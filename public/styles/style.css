@@ -43,7 +43,7 @@ a {
 .site-logo {
     font-size: 2rem;
     line-height: 1;
-    font-family: 'Righteous', cursive;
+    font-family: 'Lovelo', cursive;
 }
 
 .site-logo img {
@@ -51,7 +51,7 @@ a {
 }
 
 .site-logo a {
-    color: #0a4a92;
+    color: #882d2d;
     text-decoration: none;
 }
 
@@ -93,17 +93,17 @@ a {
 }
 
 .product-item {
-    box-shadow: #1e5ab3 0 0 10px 1px;
+    box-shadow: #882d2d 0 0 10px 1px;
 }
 
 .product-item:hover {
-    box-shadow: #000000 0 0 10px 1px;
+    box-shadow: #f5d2d2 0 0 10px 1px;
 }
 
 .product-name {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #014eb3;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -157,7 +157,7 @@ a.product-name:hover, a.product-name:focus {
 }
 
 .footer-logo a, .footer-nav a{
-    color: #316dee;
+    color: #a84242;
     text-decoration: none;
 }
 
