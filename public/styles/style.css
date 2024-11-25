@@ -1,5 +1,5 @@
 body {
-    background-color: #226db3ee;
+    background-color: #102B3F;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -51,7 +51,7 @@ a {
 }
 
 .site-logo a {
-    color: #0a4a92;
+    color: #102B3F;
     text-decoration: none;
 }
 
@@ -93,7 +93,7 @@ a {
 }
 
 .product-item {
-    box-shadow: #1e5ab3 0 0 10px 1px;
+    box-shadow: #0F8B8D 0 0 10px 1px;
 }
 
 .product-item:hover {
@@ -103,7 +103,7 @@ a {
 .product-name {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #014eb3;
+    color: #A18276;
     text-decoration: none;
 }
 
@@ -111,7 +111,7 @@ a {
     font-size: 21px;
     line-height: 1.3;
     font-family: 'Open Sans', sans-serif;
-    color: #0011ff;
+    color:#A18276;
 }
 
 .product-name small {
@@ -157,7 +157,7 @@ a.product-name:hover, a.product-name:focus {
 }
 
 .footer-logo a, .footer-nav a{
-    color: #316dee;
+    color: #A18276;
     text-decoration: none;
 }
 
@@ -432,7 +432,7 @@ color:#000000;
   }
  /* Estilo para el botón de compra */
 .comprar {
-    background-color: #25D366; /* Verde de WhatsApp */
+    background-color: #548687; /* Verde de WhatsApp */
     color: white; /* Texto blanco */
     padding: 10px 20px; /* Espaciado interno */
     border: none; /* Sin borde */
@@ -447,7 +447,7 @@ color:#000000;
 
 /* Efecto de hover (cuando el ratón pasa sobre el botón) */
 .comprar:hover {
-    background-color: #128C7E; /* Cambio de color al pasar el ratón (verde oscuro) */
+    background-color: #548687; /* Cambio de color al pasar el ratón (verde oscuro) */
 }
  /* Estilo para el botón redondeado y verde */
 .css-button-rounded--green {
@@ -462,14 +462,14 @@ color:#000000;
     display: inline-block;
     outline: none;
     border-radius: 5px; /* Bordes redondeados */
-    border: 2px solid #57cc99; /* Borde verde */
-    background: #57cc99; /* Fondo verde */
+    border: 2px solid #548687; /* Borde verde */
+    background: #548687; /* Fondo verde */
   }
   
   /* Efecto hover: cuando el ratón pasa sobre el botón */
   .css-button-rounded--green:hover {
     background: #fff; /* Fondo blanco */
-    color: #57cc99; /* Color del texto verde */
+    color: #548687; /* Color del texto verde */
   }
   
   
