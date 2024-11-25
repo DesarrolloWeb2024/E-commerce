@@ -92,6 +92,32 @@ a {
     padding-bottom: .3rem;
 }
 
+/* NAV 2 */
+
+/* Reducir márgenes laterales en los enlaces de la barra de navegación */
+.nav-link {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  /* Cambiar color al hacer hover */
+  .nav-link:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+
+  .bg-light {
+    background-color: #000000;
+  }
+  
+  /* Altura fija y centrado */
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center; /* Centrar los elementos verticalmente */
+  }
+  
+
 .product-item {
     box-shadow: #882d2d 0 0 10px 1px;
 }
