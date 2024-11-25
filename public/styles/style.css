@@ -24,8 +24,12 @@ a {
     color: #ffffff;
     padding-left: 20px; /* Espaciado interno a la izquierda */
     line-height: 1.2;
+    transition: color 0.3s; /* Suaviza el cambio de color */
 }
 
+.brand-name:hover {
+    color: #ff5e00; /* Cambia a naranja cuando el mouse pasa encima */
+}
 
 .header .row {
     align-items: center;
@@ -527,10 +531,12 @@ table td img {
 }
 
 /* Responsive Adjustments */
-@media (max-width: 768px)
+
     .footer {
-        text-align: center;
-    }
+    text-align: center
+}
+
+
 
     .footer p, .footer a {
         font-size: 0.9rem;
@@ -823,4 +829,3 @@ h2 {
     margin: 0 auto;           
     padding: 20px;             
 }
-
