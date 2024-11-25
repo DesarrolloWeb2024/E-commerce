@@ -451,7 +451,7 @@ table td img {
 }
 
 #whatsapp-button:hover {
-    background-color: #128C7E;
+    background-color: #5cb85c;
 }
 .footer {
     background: linear-gradient(135deg, #1a1a1a, #333333);
@@ -731,14 +731,14 @@ label {
 
     margin-bottom: 8px;
 
-    color: #555;
+    color: #000000;
 
 }
 
 
 input, textarea {
 
-    width: 90%;
+    width: 100%;
 
     padding: 10px;
 
@@ -758,13 +758,13 @@ input[type="number"], input[type="text"], input[type="email"] {
 }
 
 
-button {
+.button-type-form {
 
     width: 100%;
 
     padding: 10px;
 
-    background-color: #5cb85c;
+    background-color: #25D366;
 
     border: none;
 
@@ -775,13 +775,13 @@ button {
     cursor: pointer;
 
     font-size: 16px;
-
+    text-align: center;
 }
 
 
-button:hover {
+.button-type-form:hover {
 
-    background-color: transparent;
+    background-color: #5cb85c;
 
 }
 /* Contenedor del mapa */
