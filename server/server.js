@@ -12,31 +12,31 @@ app.get('/api/products', (req, res) => {
   const products = [
     { 
       id: 1, 
-      name: 'Reposera Plegable', 
-      oldPrice: 97000, 
-      price: 82000, 
-      urlImg: 'https://http2.mlstatic.com/D_NQ_NP_2X_984961-MLU75915935498_042024-F.webp'
+      name: 'Taladro Atornillador Inalambrico Black Decker Maletín Cd121k', 
+      oldPrice: 85000, 
+      price: 59500, 
+      urlImg: 'https://http2.mlstatic.com/D_NQ_NP_2X_925066-MLA74600772037_022024-F.webp'
     },
     {
       id: 2, 
-      name: 'Campera Keyboard programador',  
-      oldPrice: 11500, 
-      price: 11200, 
-      urlImg: 'https://purodiseno.lat/wp-content/uploads/2023/04/CAMPERA-TECLADO-2-821x1024.jpg' 
+      name: 'Juego Set Kit De 3 Pinzas De Presion Crossmaster',  
+      oldPrice: 55000, 
+      price: 38500, 
+      urlImg: 'https://http2.mlstatic.com/D_NQ_NP_2X_830234-MLA74477226528_022024-F.webp' 
     },
     { 
       id: 3, 
-      name: 'Disco-solido interno kingston sata-960g',  
-      oldPrice: 18500, 
-      price: 18000, 
-      urlImg: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQwqHX1fVP2DUn6mEw05ukydZ6KOgkf0w3N3ZEHHJnDUW7WtxSEzdOZ73YxCn-FBC5kYxGeF4wy9zakpXVDOXbjQouNAmyH1LTbzkyuK2t0u9We1eAqfkFFDw&usqp=CAE' 
+      name: 'Mascara Fotosensible St-1i Din16 + 2 Escuadras Magnéticas',  
+      oldPrice: 56200, 
+      price: 39400, 
+      urlImg: 'https://http2.mlstatic.com/D_NQ_NP_2X_997689-MLA71255444453_082023-F.webp' 
     },
     { 
       id: 3, 
-      name: 'Taza Código De Programacion',  
-      oldPrice: 3500, 
-      price: 2200, 
-      urlImg: 'https://http2.mlstatic.com/D_NQ_NP_786656-MLA46832914211_072021-O.webp' 
+      name: 'Amoladora De Banco Sierra Kld Kldab3s Minitorno 300w 6 En 1',  
+      oldPrice: 73400, 
+      price: 51380, 
+      urlImg: 'https://http2.mlstatic.com/D_NQ_NP_2X_903220-MLA74601145979_022024-F.webp' 
     },
     
     
