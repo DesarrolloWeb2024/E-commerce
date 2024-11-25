@@ -764,7 +764,7 @@ input[type="number"], input[type="text"], input[type="email"] {
 
     padding: 10px;
 
-    background-color: #25D366;
+    background-color: #000000;
 
     border: none;
 
@@ -781,7 +781,7 @@ input[type="number"], input[type="text"], input[type="email"] {
 
 .button-type-form:hover {
 
-    background-color: #5cb85c;
+    background-color: #4e4d4d;
 
 }
 /* Contenedor del mapa */
