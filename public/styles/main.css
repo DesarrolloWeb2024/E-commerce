@@ -45,7 +45,7 @@ a {
 }
 
 .site-logo a {
-    color: #404040;
+    color: #102B3F;
     text-decoration: none;
 }
 
@@ -56,7 +56,7 @@ a {
 .header-item {
     padding: .25rem .4rem;
     cursor: pointer;
-    color: #656565;
+    color: #A18276;
     transition: color .2s linear 0s;
     font-weight: bold;
     line-height: 2.5;
