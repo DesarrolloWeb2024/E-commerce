@@ -189,6 +189,39 @@
             <div class="col-12 align-self-end">
                 <!-- Footer -->
                 <!-- Footer -->
+                <div class="container my-5">
+                    <div class="row">
+                        <!-- Mapa -->
+                        <div class="col-12 mb-4">
+                            <h2 class="text-center">Nuestra Ubicación</h2>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26305.117587089157!2d-58.59021924786282!3d-34.49934250320267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcba64ba48f9cb%3A0xd61b4bdbdfb6d529!2sB1609%20Boulogne%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1732569626655!5m2!1ses-419!2sar" width="1270" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                
+                        <!-- Formulario -->
+                        <div class="col-12">
+                            <h2 class="text-center mb-4">Contáctanos</h2>
+                            <form action="send_email.php" method="post" class="p-4 bg-light border rounded">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Correo Electrónico</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Teléfono</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
 <footer class="row">
     <div class="col-12 bg-dark text-white pb-3 pt-5">
         <div class="row">
