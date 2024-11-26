@@ -17,52 +17,13 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div class="container-fluid">
-
-        <div >
-            <div class="col-12">
-                <header class="row">
-                    <!-- Top Nav -->
-                    <div class="col-12 bg-dark py-2 d-md-block d-none">
-                        <div class="row">
-                            <div class="col-auto">
-                                <!-- Logo pequeño -->
-                                <img src="images/logo-small.png" alt="Logo pequeño" class="logo-small me-3">
-                            </div>
-                            <div class="col-auto me-auto">
-                                <ul class="top-nav">
-                                    <li>
-                                        <a href="https://api.whatsapp.com/send?phone=1136894872">
-                                            <i class=></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href=>
-                                            <i class=></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </header>
-
-                <i class=></i>
-            </a>
-        </li>
-    </ul>
-</div>
-</div>
-</div>
-<!-- Top Nav -->
-
 
             <!-- Header -->
             <div class="col-12 bg-white pt-4">
                 <div class="row">
                     <div class="col-lg-auto">
                         <div class="site-logo text-center text-lg-left">
-                            <a href="index.html">Panaderia Nancy</a>
+                            <a href="index.html"> <img src="images/logozul.png" alt="Logo Nancy" class="logo-small me-3"></a>
                         </div>
                     </div>
                     <div class="col-lg-auto ms-lg-5">
@@ -94,18 +55,20 @@
 
                 <!-- Nuevo contenido de contacto -->
                 <div class="contact-container py-5">
-                    <h2 class="text-center">Si querés contactarte con nosotros, te dejamos dónde podés encontrarnos</h2>
+                    <h2 class="text-center">¡Si querés contactarte con nosotros, te dejamos dónde podés encontrarnos!</h2>
 
-                    <!-- Bloque con la información de contacto -->
-                    <div class="contact-info bg-light p-4 rounded shadow mb-5">
-                        <ul class="list-unstyled">
-                            <li><strong>Teléfono:</strong> +54 11-3689-4872</li>
-                            <li><strong>Email:</strong> contacto@panaderianancy.com</li>
-                            <li><strong>Dirección:</strong> Cura Brochero 1509, Grand Bourg</li>
-                        </ul>
-                    </div>
+                   <!-- Bloque con la información de contacto -->
+<div class="contact-info bg-light p-4 rounded shadow mb-5 mx-auto" style="max-width: 600px;">
+    <ul class="list-unstyled">
+        <li><strong>Whatsapp:</strong> <a href="https://api.whatsapp.com/send?phone=5491136894872" target="_blank">54 9 11 3689-4872</a></li>
+        <li><strong>Email:</strong> contacto@panaderianancy.com</li>
+        <li><strong>Dirección:</strong> Cura Brochero 1509, Grand Bourg</li>
+        <li><strong>Instagram:</strong> <a href="https://www.instagram.com/nancypanaderia_" target="_blank">@nancypanaderia_</a></li>
+    </ul>
+</div>
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.448613425851!2d-58.73926772334703!3d-34.49150945158266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca29d79c86c77%3A0x866762109272e3ac!2sCura%20Brochero%201509%2C%20B1615EKT%20Grand%20Bourg%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732231462836!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="map-container mx-auto" style="max-width: 600px;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.448613425851!2d-58.73926772334703!3d-34.49150945158266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca29d79c86c77%3A0x866762109272e3ac!2sCura%20Brochero%201509%2C%20B1615EKT%20Grand%20Bourg%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1732231462836!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 
@@ -113,5 +76,72 @@
         </div>
 
     </div>
+
+        <!-- WhatsApp Floating Button -->
+<a href="https://api.whatsapp.com/send?phone=5491136894872" class="whatsapp-btn" target="_blank">
+    <img src="images/wsp1.png.png" alt="WhatsApp" class="whatsapp-icon">
+</a>
+
+<!-- Estilos del botón flotante -->
+<style>
+    .whatsapp-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #25d366;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease;
+    }
+
+    .whatsapp-btn:hover {
+        background-color: #128c7e;
+    }
+
+    .whatsapp-icon {
+        width: 40px;
+        height: 40px;
+    }
+</style>
+
+<!-- Instagram Floating Button -->
+<a href="https://www.instagram.com/nancypanaderia_/" class="instagram-btn" target="_blank">
+    <img src="images/instagramlogo.png" alt="instagram-icon" class="instagram-icon">
+</a>
+
+<!-- Estilos del botón flotante -->
+<style>
+    .instagram-btn {
+        position: fixed;
+        bottom: 90px; /* Ajustado para que no se solape con el de WhatsApp */
+        right: 20px;
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #e4405f;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease;
+    }
+
+    .instagram-btn:hover {
+        background-color: #c13584;
+    }
+
+    .instagram-icon {
+        width: 40px;
+        height: 40px;
+    }
+</style>
+
 </body>
 </html>

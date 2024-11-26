@@ -1,50 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Panadería Nancy</title>
-    
-    <!-- Fuentes de Google -->
+
+    <title>Panadería Nancy - Historia</title>
+
     <link href="//fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
-    
-    <!-- Estilos CSS -->
+
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/all.min.css">
     <link rel="stylesheet" href="styles/style.css">
-</style>
 </head>
 <body>
-    <div class="container-fluid">
 
-        <div class="row min-vh-100">
-            <div class="col-12">
-                <header class="row">
-                    <!-- Top Nav -->
-                    <div class="col-12 bg-dark py-2 d-md-block d-none">
-                        <div class="row">
-                            <div class="col-auto">
-                                <!-- Logo pequeño -->
-                                <img src="images/logo-small.png" alt="Logo pequeño" class="logo-small me-3">
-                            </div>
-                            <div class="col-auto me-auto">
-                                <ul class="top-nav">
-                                    <li>
-                                        <a href="https://api.whatsapp.com/send?phone=1136894872">
-                                            <i class=></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href=></a>
-                                    </li>
-                                </ul>
-                            </div>
+            <!-- Header -->
+            <div class="col-12 bg-white pt-4">
+                <div class="row">
+                    <div class="col-lg-auto">
+                        <div class="site-logo text-center text-lg-left">
+                            <a href="index.html"> <img src="images/logozul.png" alt="Logo Nancy" class="logo-small me-3"></a>
                         </div>
                     </div>
-                </header>
+                    <div class="col-lg-auto ms-lg-5">
+                        <nav>
+                            <ul class="nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="historia.html">Historia</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="productos.html">Productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="promociones.html">Promociones</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="reseñas.html">Reseñas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- Header -->
+        </header>
+    </div>
     <!-- Sección Historia de la Panadería -->
     <section id="historia">
         <div class="container">
@@ -78,5 +85,71 @@
 
     <!-- Scripts JS -->
     <script src="scripts/bootstrap.bundle.min.js"></script>
+
+            <!-- WhatsApp Floating Button -->
+<a href="https://api.whatsapp.com/send?phone=5491136894872" class="whatsapp-btn" target="_blank">
+    <img src="images/wsp1.png.png" alt="WhatsApp" class="whatsapp-icon">
+</a>
+
+<!-- Estilos del botón flotante -->
+<style>
+    .whatsapp-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #25d366;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease;
+    }
+
+    .whatsapp-btn:hover {
+        background-color: #128c7e;
+    }
+
+    .whatsapp-icon {
+        width: 40px;
+        height: 40px;
+    }
+</style>
+
+<!-- Instagram Floating Button -->
+<a href="https://www.instagram.com/nancypanaderia_/" class="instagram-btn" target="_blank">
+    <img src="images/instagramlogo.png" alt="instagram-icon" class="instagram-icon">
+</a>
+
+<!-- Estilos del botón flotante -->
+<style>
+    .instagram-btn {
+        position: fixed;
+        bottom: 90px; /* Ajustado para que no se solape con el de WhatsApp */
+        right: 20px;
+        z-index: 1000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #e4405f;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease;
+    }
+
+    .instagram-btn:hover {
+        background-color: #c13584;
+    }
+
+    .instagram-icon {
+        width: 40px;
+        height: 40px;
+    }
+</style>
 </body>
 </html>
