@@ -231,8 +231,6 @@ a.product-name:hover, a.product-name:focus {
     margin-right: 10px;
 }
 
-
-
 .product-item {
     position: relative;
     overflow: hidden;
@@ -639,9 +637,16 @@ table td img {
     position: relative;
 }
 
+/* Estilo para el ícono del carrito */
 .nav-item.carrito .fa-shopping-cart {
     font-size: 24px;
-    color: #fc5c00;
+    color: #5c5c5c; /* Color predeterminado */
+    transition: color 0.3s ease; /* Suaviza la transición del color */
+}
+
+/* Cambio de color cuando el mouse está encima */
+.nav-item.carrito:hover .fa-shopping-cart {
+    color: #fc5c00; /* Color naranja al pasar el mouse */
 }
 
 .cart-count {
