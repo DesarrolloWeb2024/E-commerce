@@ -32,14 +32,12 @@ app.get('/api/products', (req, res) => {
       urlImg: 'https://http2.mlstatic.com/D_NQ_NP_820673-MLA40428291057_012020-O.webp' 
     },
     { 
-      id: 3, 
+      id: 4, 
       name: 'Promocion de Lentes de sol + ojotas Hawaianas',  
       oldPrice: 58000, 
       price: 48000, 
       urlImg: 'https://img.freepik.com/foto-gratis/mano-sujetando-chanclas-gafas-sol_23-2148775861.jpg?t=st=1731622494~exp=1731626094~hmac=aa894db62dee5d83966b6dfd4ae410716660fe243b69327737a7e6298375e1ac&w=740' 
-    },
-    
-    
+    },    
   ];
 
   res.json(products);
@@ -48,3 +46,4 @@ app.get('/api/products', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
