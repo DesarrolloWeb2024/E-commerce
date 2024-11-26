@@ -1,0 +1,49 @@
+form {
+	background-color:#c8cacd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+     margin-bottom: 8px;
+     color: #060606;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #060606; 
+    border-radius: 5px;
+    }
+
+    button {
+        width: 40%;
+        padding: 10px;
+        background-color: #88878f;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: #dd8d8a;
+    }
+
+.form-title {
+    color: #393737;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-description {
+    color: #393737;
+    font-size: 16px;
+}
