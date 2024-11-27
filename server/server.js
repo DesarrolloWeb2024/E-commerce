@@ -16,10 +16,10 @@ app.get('/api/products', (req, res) => {
         },
         {
             id: 2, 
-            name: 'Juego Set Kit De 3 Pinzas Crossmaster',  
+            name: 'Set Kit Juego Puntas 100 Piezas Con Maletin 1 Pulgada Truper',  
             oldPrice: 55000, 
             price: 38500, 
-            urlImg: 'https://http2.mlstatic.com/D_NQ_NP_2X_830234-MLA74477226528_022024-F.webp'
+            urlImg: 'https://http2.mlstatic.com/D_NQ_NP_2X_702828-MLA50137509977_052022-F.webp'
         },
         { 
             id: 3, 
@@ -30,10 +30,10 @@ app.get('/api/products', (req, res) => {
         },
         { 
             id: 4, 
-            name: 'Amoladora De Banco Sierra KLDAB3S',  
-            oldPrice: 73400, 
-            price: 51380, 
-            urlImg: 'https://http2.mlstatic.com/D_NQ_NP_2X_903220-MLA74601145979_022024-F.webp'
+            name: 'Compresor De Aire Sin Aceite Alta Recuperacion 24 L Daewoo',  
+            oldPrice: 96000, 
+            price: 61380, 
+            urlImg: 'https://http2.mlstatic.com/D_NQ_NP_2X_928282-MLA79505323208_102024-F.webp'
         }
     ];
     res.json(products);
