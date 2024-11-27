@@ -158,8 +158,18 @@ a {
 
 
 .product-item {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Asegura que los elementos estén distribuidos en todo el espacio */
+    height: 100%;
     box-shadow: #B5A68F 0 0 10px 1px;
+}
+
+.product-item .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Asegura que la tarjeta ocupe toda la altura posible */
 }
 
 .product-item:hover {
@@ -594,6 +604,8 @@ table td img {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: auto; /* Empuja el botón hacia abajo */
+    width: 100%; /* Hace que el botón ocupe todo el ancho de la tarjeta */
 }
 
 .btn-agregar:hover {

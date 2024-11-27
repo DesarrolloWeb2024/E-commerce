@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             products.forEach(product => {
                 const productHTML = `
                     <div class="col-lg-3 col-sm-6 my-3">
-                        <div class="col-12 bg-white text-center h-100 product-item">
+                        <div class="col-12 bg-white text-center h-100 d-flex flex-column product-item">
                             <div class="row h-100">
                                 <div class="col-12 p-0 mb-3">
                                     <a href="#">
@@ -26,8 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
                                     <span class="product-price-old"> $${product.oldPrice}</span><br>
                                     <span class="product-price"> $${product.price}</span>
                                 </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary btn-agregar">Comprar Ya!</button>
+                                <div class="col-12 mt-auto">
+                                    <!-- Botón con el enlace fijo de Mercado Libre -->
+                                    <a href="https://www.mercadolibre.com/jms/mla/lgz/msl/login/H4sIAAAAAAAEAzWNwQ7DIAxD_yXnqr1z3I-gjKYULRQE6ehU9d8bpu1o-9k-gZMPm5VPJjBAR-bggsAAmVGWVKINswYxq1WD0E8ydgQLRhIqFczZhzzND9JSn1qQKymEu6x24dTU-36pF6qlQ3sbsm30fAfq6b_hk4pVJFczTa21MVJxOKeMPo0uxRHLBNegfBUrBd0LjJSdrhut-OJLzQAAAA/user" class="btn btn-primary btn-agregar" target="_blank">Comprar Ya!</a>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +41,6 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error fetching products:', error));
 });
-
 // Función para asignar eventos al carrito
 function asignarEventosCarrito() {
     let cantidadCarrito = 0;
