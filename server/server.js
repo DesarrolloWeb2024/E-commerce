@@ -31,7 +31,7 @@ app.get('/api/products', (req, res) => {
         { 
             id: 4, 
             name: 'Compresor De Aire Sin Aceite Alta Recuperacion 24 L Daewoo',  
-            oldPrice: 96000, 
+            oldPrice: 97000, 
             price: 61380, 
             urlImg: 'https://http2.mlstatic.com/D_NQ_NP_2X_928282-MLA79505323208_102024-F.webp'
         }
