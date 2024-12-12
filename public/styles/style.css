@@ -1,5 +1,5 @@
 body {
-    background-color: #006400;
+    background-color: #226db3ee;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -7,9 +7,8 @@ a {
     transition: color .2s linear 0s;
 }
 
-
 .logo-small {
-    width: 100px; 
+    width:200px; 
     height: auto;
     margin-right: 20px; 
 }
@@ -18,7 +17,7 @@ a {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -35,11 +34,10 @@ a {
 .top-nav li a {
     color: #ffffff;
     text-decoration: none;
-    font-weight: bold; /* Letras más gruesas */
 }
 
 .top-nav li a:hover, .top-nav li a:focus {
-    color: #006400;
+    color: #fff;
 }
 
 .site-logo {
